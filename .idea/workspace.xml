@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 백준 10869">
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 백준 10926">
       <change beforePath="$PROJECT_DIR$/src/backjoon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backjoon/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +136,7 @@
       <workItem from="1715493851278" duration="268000" />
       <workItem from="1715494135769" duration="828000" />
       <workItem from="1716099942309" duration="1085000" />
-      <workItem from="1719032518196" duration="2923000" />
+      <workItem from="1719032518196" duration="3310000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -194,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719036971281</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="# 백준 10926">
+      <option name="closed" value="true" />
+      <created>1719037153073</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719037153073</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +227,8 @@
     <MESSAGE value="# 백준 1001" />
     <MESSAGE value="# 백준 1008" />
     <MESSAGE value="# 백준 10869" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 백준 10869" />
+    <MESSAGE value="# 백준 10926" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 백준 10926" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
