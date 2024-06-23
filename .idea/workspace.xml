@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 백준 10172" />
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 백준 9498">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,27 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SooHong Kim/Desktop/Coding/jspbasic",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/SooHong Kim/Desktop/study202405/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.customizations",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.Day1.executor": "Run",
-    "애플리케이션.Main.executor": "Run",
-    "애플리케이션.Print.executor": "Run",
-    "애플리케이션.Pythagorean.executor": "Run",
-    "애플리케이션.backjoon.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SooHong Kim/Desktop/Coding/jspbasic&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SooHong Kim/Desktop/study202405/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Day1.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Print.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Pythagorean.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.backjoon.Main.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="애플리케이션.backjoon.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -134,7 +136,8 @@
       <workItem from="1715493851278" duration="268000" />
       <workItem from="1715494135769" duration="828000" />
       <workItem from="1716099942309" duration="1085000" />
-      <workItem from="1719032518196" duration="4349000" />
+      <workItem from="1719032518196" duration="4768000" />
+      <workItem from="1719038982788" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -232,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719038427039</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="# 백준 9498">
+      <option name="closed" value="true" />
+      <created>1719038828017</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038828017</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +273,8 @@
     <MESSAGE value="# 백준 2588" />
     <MESSAGE value="# 백준 11382" />
     <MESSAGE value="# 백준 10172" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 백준 10172" />
+    <MESSAGE value="# 백준 9498" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 백준 9498" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
