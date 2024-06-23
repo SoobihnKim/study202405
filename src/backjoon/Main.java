@@ -5,19 +5,20 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-       Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-       int A = sc.nextInt();
-       int B = sc.nextInt();
+        int H = sc.nextInt();
+        int M = sc.nextInt();
 
-       if(A > 0 & B > 0) {
-           System.out.println(1);
-       } else if (A < 0 & B > 0) {
-           System.out.println(2);
-       } else if (A < 0 & B < 0) {
-           System.out.println(3);
-       } else if (A > 0 & B < 0) {
-           System.out.println(4);
-       }
+        if (M < 45) {
+            H--;
+            M = 60 - (45 - M);
+            if (H < 0) {
+                H = 23;
+            }
+            System.out.println(H + " " + M);
+        } else {
+            System.out.println(H + " " + (M - 45));
+        }
     }
 }
