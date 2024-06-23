@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 백준 2884">
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 백준 2525">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backjoon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backjoon/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +139,7 @@
       <workItem from="1716099942309" duration="1085000" />
       <workItem from="1719032518196" duration="4768000" />
       <workItem from="1719038982788" duration="11000" />
-      <workItem from="1719124284739" duration="2153000" />
+      <workItem from="1719124284739" duration="3233000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -276,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719125644862</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="# 백준 2525">
+      <option name="closed" value="true" />
+      <created>1719126544911</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719126544911</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +320,8 @@
     <MESSAGE value="# 백준 1330" />
     <MESSAGE value="# 백준 14681" />
     <MESSAGE value="# 백준 2884" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 백준 2884" />
+    <MESSAGE value="# 백준 2525" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 백준 2525" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

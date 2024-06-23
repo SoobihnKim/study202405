@@ -5,19 +5,21 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // 오븐시계
+
         Scanner sc = new Scanner(System.in);
 
         int A = sc.nextInt();
         int B = sc.nextInt();
         int C = sc.nextInt();
 
-        int min = 60 * A + B; // 분
-        min += C;
-
-        int hour = (min / 60) % 24;
-        int minute = min % 60;
-
-        System.out.println(hour + " " + minute);
+        if(A == B && B == C) {
+            System.out.println(10000 + A * 1000);
+        } else if(A == B || A == C) {
+            System.out.println(1000 + A * 100);
+        } else if (B == C) {
+            System.out.println(1000 + B * 100);
+        } else {
+            System.out.println(Math.max(A, Math.max(B, C)) * 100);
+        }
     }
 }
