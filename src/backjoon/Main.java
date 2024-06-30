@@ -7,13 +7,13 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int T = sc.nextInt();
+        int n = sc.nextInt();
 
-        for (int i = 0; i < T; i++)  {
-            int A = sc.nextInt();
-            int B = sc.nextInt();
+        int sum = 0;
 
-            System.out.println(A + B);
+        for (int i = 1; i <= n; i++)  {
+            sum += i;
         }
+            System.out.println(sum);
     }
 }
