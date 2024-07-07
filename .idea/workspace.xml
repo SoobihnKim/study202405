@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 백준 8393">
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 백준 25304">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backjoon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backjoon/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
     &quot;애플리케이션.backjoon.Main.executor&quot;: &quot;Run&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.backjoon.Main">
+  <component name="RunManager" selected="애플리케이션.programmers.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="study202405" />
@@ -109,8 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="programmers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.Main" />
+      <module name="study202405" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.programmers.Main" />
         <item itemvalue="애플리케이션.backjoon.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Pythagorean" />
@@ -141,7 +154,9 @@
       <workItem from="1719038982788" duration="11000" />
       <workItem from="1719124284739" duration="3313000" />
       <workItem from="1719405281456" duration="24000" />
-      <workItem from="1719728872693" duration="3206000" />
+      <workItem from="1719728872693" duration="3697000" />
+      <workItem from="1720101842372" duration="1026000" />
+      <workItem from="1720328369149" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -319,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719729967109</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="# 백준 25304">
+      <option name="closed" value="true" />
+      <created>1719732336046</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719732336046</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +382,8 @@
     <MESSAGE value="# 백준 2739" />
     <MESSAGE value="# 백준 10950" />
     <MESSAGE value="# 백준 8393" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 백준 8393" />
+    <MESSAGE value="# 백준 25304" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 백준 25304" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
