@@ -3,19 +3,16 @@ package programmers;
 public class Main {
 
 //    public static int[] main(String[] args) {
-        public int[] solution(int[] arr, int k) {
 
-            if(k % 2 == 1) {
-                for (int i = 0; i < arr.length; i++) {
-                    arr[i] *= k;
-                }
-            } else {
-                for (int i = 0; i < arr.length; i++) {
-                    arr[i] += k;
-                }
+    public int solution(int[] num_list, int n) {
+        int answer = 0;
+        for (int i = 0; i < num_list.length; i++) {
+            if (num_list[i] == n) {
+                answer = 1 ;
             }
-            return arr;
         }
+        return answer;
     }
+}
 
 
