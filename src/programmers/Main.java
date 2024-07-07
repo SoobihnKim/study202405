@@ -1,44 +1,21 @@
 package programmers;
 
-import java.util.Scanner;
-
 public class Main {
 
-    public static void main(String[] args) {
-        class Solution {
-            public int[] solution(String route) {
-                int east = 0;
-                int north = 0;
-                int[] answer = new int [2];
-                for(int i=0; i<route.length(); i++){
-                    switch(route.charAt(i)){
-                        case 'N':
-                            north++;
-                            break;
-                        case 'S':
+//    public static int[] main(String[] args) {
+        public int[] solution(int[] arr, int k) {
 
-                            north--
-                            ;
-                            break;
-                        case 'E':
-
-                            east++
-                            ;
-                            break;
-                        case 'W':
-
-                            east--
-                            ;
-
-                            break
-                                    ;
-                    }
+            if(k % 2 == 1) {
+                for (int i = 0; i < arr.length; i++) {
+                    arr[i] *= k;
                 }
-                answer[0] = east;
-                answer[1] = north;
-                return answer;
+            } else {
+                for (int i = 0; i < arr.length; i++) {
+                    arr[i] += k;
+                }
             }
+            return arr;
         }
     }
-}
+
 

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 백준 25304">
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# [PCCE 기출문제] 5번 / 산책">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +64,15 @@
     &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.Print.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.Pythagorean.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.backjoon.Main.executor&quot;: &quot;Run&quot;
+    &quot;애플리케이션.backjoon.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.programmers.Main.executor&quot;: &quot;Run&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="programmers" />
+    </key>
+  </component>
   <component name="RunManager" selected="애플리케이션.programmers.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -156,7 +163,8 @@
       <workItem from="1719405281456" duration="24000" />
       <workItem from="1719728872693" duration="3697000" />
       <workItem from="1720101842372" duration="1026000" />
-      <workItem from="1720328369149" duration="751000" />
+      <workItem from="1720328369149" duration="1059000" />
+      <workItem from="1720336076493" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -342,7 +350,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719732336046</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="# [PCCE 기출문제] 5번 / 산책">
+      <option name="closed" value="true" />
+      <created>1720329299298</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1720329299298</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +399,8 @@
     <MESSAGE value="# 백준 10950" />
     <MESSAGE value="# 백준 8393" />
     <MESSAGE value="# 백준 25304" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 백준 25304" />
+    <MESSAGE value="# [PCCE 기출문제] 5번 / 산책" />
+    <option name="LAST_COMMIT_MESSAGE" value="# [PCCE 기출문제] 5번 / 산책" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
