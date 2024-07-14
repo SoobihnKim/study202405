@@ -1,18 +1,37 @@
 package programmers;
 
+import java.util.Scanner;
+
 public class Main {
 
-//    public static int[] main(String[] args) {
+    public static int[] main(String[] args) {
 
-    public int solution(int[] num_list, int n) {
-        int answer = 0;
-        for (int i = 0; i < num_list.length; i++) {
-            if (num_list[i] == n) {
-                answer = 1 ;
-            }
+        Scanner sc = new Scanner(System.in);
+        int start = sc.nextInt();
+        int before = sc.nextInt();
+        int after = sc.nextInt();
+
+        int money = start;
+        int month = 1;
+        while (money < 70) {
+            money +=
+                    before
+            ;
+            month++;
         }
-        return answer;
+        while (
+                money
+                        < 100) {
+
+            money += after
+            ;
+            month++;
+        }
+
+        System.out.println(month);
+        return new int[0];
     }
 }
+
 
 
