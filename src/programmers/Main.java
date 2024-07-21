@@ -27,7 +27,6 @@ public class Main {
             ;
             month++;
         }
-
         System.out.println(month);
         return new int[0];
     }
