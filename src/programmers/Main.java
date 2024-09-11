@@ -4,52 +4,45 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static int[] main(String[] args) {
+    public String solution(String[] storage, int[] num) {
+        int num_item = 0;
+        String[] clean_storage = new String[storage.length];
+        int[] clean_num = new int[num.length];
 
-        class Solution {
-            public int func1(int humidity, int val_set) {
-                if (humidity < val_set)
-                    return 3;
-                return 1;
-            }
-
-            public int func2(int humidity) {
-                if (humidity >= 50)
-                    return 0;
-                else if (humidity >= 40)
-                    return 1;
-                else if (humidity >= 30)
-                    return 2;
-                else if (humidity >= 20)
-                    return 3;
-                else if (humidity >= 10)
-                    return 4;
-                else
-                    return 5;
-            }
-
-            public int func3(int humidity, int val_set) {
-                if (humidity < val_set)
-                    return 1;
-                return 0;
-            }
-
-            public int solution(String mode_type, int humidity, int val_set) {
-                int answer = 0;
-
-                if (mode_type.equals("auto")) {
-                    answer = func2(humidity);
-                } else if (mode_type.equals("target")) {
-                    answer = func1(humidity, val_set);
-                } else if (mode_type.equals("minimum")) {
-                    answer = func3(humidity, val_set);
+        for (int i = 0; i < storage.length; i++) {
+            int clean_idx = -1;
+            for (int j = 0; j < num_item; j++) {
+                if (storage[i].equals(clean_storage[j])) {
+                    clean_idx = j;
+                    break;
                 }
-
-                return answer;
+            }
+            if (clean_idx == -1) {
+                clean_storage[num_item] = storage[i];
+                clean_num[num_item] = num[i];
+                num_item += 1;
+            } else {
+                clean_num[clean_idx] += num[i];
             }
         }
-        return null;
+
+        // 아래 코드에는 틀린 부분이 없습니다.
+
+        int num_max = -1;
+        String answer = "";
+        for (int i = 0; i < num_item; i++) {
+            if (clean_num[i] > num_max) {
+                num_max = clean_num[i];
+                answer = clean_storage[i];
+            }
+        }
+        return answer;
     }
+
 }
+
+
+
+
 
 
