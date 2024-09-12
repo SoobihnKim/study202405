@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 7번 / 가습기">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 8번 / 창고정리" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,7 +167,7 @@
       <workItem from="1722074248377" duration="184000" />
       <workItem from="1724476732083" duration="1149000" />
       <workItem from="1724659228153" duration="26000" />
-      <workItem from="1726027864937" duration="604000" />
+      <workItem from="1726027864937" duration="946000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -411,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724477875355</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="# 8번 / 창고정리">
+      <option name="closed" value="true" />
+      <created>1726028930171</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1726028930171</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +435,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 백준 1000" />
     <MESSAGE value="# 백준 1001" />
     <MESSAGE value="# 백준 1008" />
     <MESSAGE value="# 백준 10869" />
@@ -454,7 +459,8 @@
     <MESSAGE value="# 정수 찾기" />
     <MESSAGE value="# 4번 / 저축" />
     <MESSAGE value="# 7번 / 가습기" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 7번 / 가습기" />
+    <MESSAGE value="# 8번 / 창고정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 8번 / 창고정리" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
