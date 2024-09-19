@@ -3,14 +3,30 @@ package programmers;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
+        public String solution(String nickname) {
 
-        Scanner sc = new Scanner(System.in);
-        int angle1 = sc.nextInt();
-        int angle2 = sc.nextInt();
-
-        int sum_angle = (angle1 + angle2) % 360;
-        System.out.println(sum_angle);
+        String answer = "";
+        for (int i = 0; i < nickname.length(); i++) {
+            if (nickname.charAt(i) == 'l') {
+                answer += "I";
+            } else if (nickname.charAt(i) == 'w') {
+                answer += "vv";
+            } else if (nickname.charAt(i) == 'W') {
+                answer += "VV";
+            } else if (nickname.charAt(i) == 'O') {
+                answer += "0";
+            } else {
+                answer += nickname.charAt(i);
+            }
+        }
+        while (answer.length() < 4) {
+            answer += "o";
+        }
+        if (answer.length() > 8) {
+            answer = answer.substring(0, 8);
+        }
+        return answer;
 
     }
 }
