@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 2번 / 각도 합치기">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 8번 / 닉네임규칙" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +70,7 @@
       <recent name="programmers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.backjoon.Main">
+  <component name="RunManager" selected="애플리케이션.backjoon.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="study202405" />
@@ -163,6 +161,7 @@
       <workItem from="1726027864937" duration="946000" />
       <workItem from="1726110538175" duration="324000" />
       <workItem from="1726111570596" duration="21000" />
+      <workItem from="1726721299316" duration="161000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -420,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726110738521</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="# 8번 / 닉네임규칙">
+      <option name="closed" value="true" />
+      <created>1726721428381</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1726721428381</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 백준 1008" />
     <MESSAGE value="# 백준 10869" />
     <MESSAGE value="# 백준 10926" />
     <MESSAGE value="# 백준 10430" />
@@ -463,7 +469,8 @@
     <MESSAGE value="# 7번 / 가습기" />
     <MESSAGE value="# 8번 / 창고정리" />
     <MESSAGE value="# 2번 / 각도 합치기" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 2번 / 각도 합치기" />
+    <MESSAGE value="# 8번 / 닉네임규칙" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 8번 / 닉네임규칙" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
