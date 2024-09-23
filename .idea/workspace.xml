@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 길이에 따른 연산">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 첫번째로 나오는 음수" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,6 +163,7 @@
       <workItem from="1726111570596" duration="21000" />
       <workItem from="1726721299316" duration="161000" />
       <workItem from="1726815380481" duration="937000" />
+      <workItem from="1727081452535" duration="526000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -438,7 +437,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726815966108</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="# 6번 / 물 부족">
+      <option name="closed" value="true" />
+      <created>1727081692836</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1727081692837</updated>
+    </task>
+    <task id="LOCAL-00036" summary="# 첫번째로 나오는 음수">
+      <option name="closed" value="true" />
+      <created>1727081982939</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1727081982939</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,8 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 백준 10926" />
-    <MESSAGE value="# 백준 10430" />
     <MESSAGE value="# 백준 2588" />
     <MESSAGE value="# 백준 11382" />
     <MESSAGE value="# 백준 10172" />
@@ -481,7 +494,9 @@
     <MESSAGE value="# 2번 / 각도 합치기" />
     <MESSAGE value="# 8번 / 닉네임규칙" />
     <MESSAGE value="# 길이에 따른 연산" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 길이에 따른 연산" />
+    <MESSAGE value="# 6번 / 물 부족" />
+    <MESSAGE value="# 첫번째로 나오는 음수" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 첫번째로 나오는 음수" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

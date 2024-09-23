@@ -2,14 +2,13 @@ package programmers;
 
 public class Main {
     //    public static int main(String[] args) {
-    public int solution(int[] num_list) {
-        int answer = 0;
-        for(int i = 0; i < num_list.length; i++) {
-            if(num_list[i] < 0) {
-                return i;
-            }
+    public int[] solution(int start_num, int end_num) {
+        int[] answer = new int[end_num - start_num + 1];
+
+        for(int i = 0; i <= end_num - start_num; i++) {
+            answer[i] = start_num + i;
         }
-        return -1;
+        return answer;
     }
 
 //    }
