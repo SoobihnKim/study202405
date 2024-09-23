@@ -2,12 +2,10 @@ package programmers;
 
 public class Main {
     //    public static int main(String[] args) {
-    public int solution(int storage, int usage, int[] change) {
-        int total_usage = 0;
-        for (int i = 0; i < change.length; i++) {
-            usage = usage + (usage * change[i] / 100);
-            total_usage += usage;
-            if (total_usage > storage) {
+    public int solution(int[] num_list) {
+        int answer = 0;
+        for(int i = 0; i < num_list.length; i++) {
+            if(num_list[i] < 0) {
                 return i;
             }
         }
