@@ -2,11 +2,18 @@ package programmers;
 
 public class Main {
     //    public static int main(String[] args) {
-    public int[] solution(int start_num, int end_num) {
-        int[] answer = new int[end_num - start_num + 1];
+    public int solution(int[] wallet, int[] bill) {
+        int answer = 0;
 
-        for(int i = 0; i <= end_num - start_num; i++) {
-            answer[i] = start_num + i;
+        while((bill[0] > wallet[0] || bill[1] > wallet[1]) &&
+                (bill[0] > wallet[1] || bill[1] > wallet[0])) {
+
+            if(bill[0] > bill[1]) {
+                bill[0] = bill[0] / 2;
+            } else {
+                bill[1] = bill[1] / 2;
+            }
+            answer++;
         }
         return answer;
     }
