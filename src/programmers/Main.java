@@ -1,21 +1,39 @@
 package programmers;
 
+import java.util.Scanner;
+
 public class Main {
     //    public static int main(String[] args) {
-    public int solution(int[] wallet, int[] bill) {
-        int answer = 0;
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String code = sc.next();
+        String lastFourWords = code.substring(code.length()-4, code.length());
 
-        while((bill[0] > wallet[0] || bill[1] > wallet[1]) &&
-                (bill[0] > wallet[1] || bill[1] > wallet[0])) {
-
-            if(bill[0] > bill[1]) {
-                bill[0] = bill[0] / 2;
-            } else {
-                bill[1] = bill[1] / 2;
-            }
-            answer++;
+        if(lastFourWords.equals(
+                "_eye"
+        )){
+            System.out.println("Ophthalmologyc");
         }
-        return answer;
+        else if(
+                lastFourWords.equals("head")
+        ){
+            System.out.println("Neurosurgery");
+        }
+        else if(
+                lastFourWords.equals("infl")
+        ){
+            System.out.println("Orthopedics");
+        }
+
+        else if(lastFourWords.equals("skin"))
+        {
+            System.out.println("Dermatology");
+        }
+
+        else
+        {
+            System.out.println("direct recommendation");
+        }
     }
 
 //    }
