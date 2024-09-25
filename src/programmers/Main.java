@@ -4,37 +4,27 @@ import java.util.Scanner;
 
 public class Main {
     //    public static int main(String[] args) {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String code = sc.next();
-        String lastFourWords = code.substring(code.length()-4, code.length());
+    public int[] solution(String[] cpr) {
+        int[] answer = {0, 0, 0, 0, 0};
+        String[] basic_order = {"check", "call", "pressure", "respiration", "repeat"};
 
-        if(lastFourWords.equals(
-                "_eye"
-        )){
-            System.out.println("Ophthalmologyc");
+        for(int i=0; i<
+                cpr.length
+                ; i++){
+            for(int j=0; j<
+                    basic_order.length
+                    ; j++){
+                if(cpr[i].equals(basic_order[j])){
+                    answer[i] =
+                            j + 1
+                    ;
+                    break;
+                }
+            }
         }
-        else if(
-                lastFourWords.equals("head")
-        ){
-            System.out.println("Neurosurgery");
-        }
-        else if(
-                lastFourWords.equals("infl")
-        ){
-            System.out.println("Orthopedics");
-        }
-
-        else if(lastFourWords.equals("skin"))
-        {
-            System.out.println("Dermatology");
-        }
-
-        else
-        {
-            System.out.println("direct recommendation");
-        }
+        return answer;
     }
+
 
 //    }
 }
