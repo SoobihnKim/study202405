@@ -4,21 +4,15 @@ import java.util.Scanner;
 
 public class Main {
     //    public static int main(String[] args) {
-    public int[] solution(String[] cpr) {
-        int[] answer = {0, 0, 0, 0, 0};
-        String[] basic_order = {"check", "call", "pressure", "respiration", "repeat"};
+    public int solution(int a, int b) {
 
-        for(int i=0; i<cpr.length; i++){
-            for(int j=0; j<basic_order.length; j++){
-                if(cpr[i].equals(basic_order[j])){
-                    answer[i] = j + 1;
-                    break;
-                }
-            }
-        }
-        return answer;
+        int concatenated = Integer.parseInt("" + a + b);
+
+        int product = 2 * a * b;
+
+        return Math.max(concatenated, product);
+
     }
-
 
 //    }
 }
