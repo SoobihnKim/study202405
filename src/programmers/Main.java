@@ -3,18 +3,19 @@ package programmers;
 import java.util.Scanner;
 
 public class Main {
-    //    public static int main(String[] args) {
-    public int solution(int a, int b) {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        int answer = 0;
 
-        int concatenated = Integer.parseInt("" + a + b);
+        while (number > 0) {
+            answer += number % 100;
+            number /= 100;
+        }
 
-        int product = 2 * a * b;
-
-        return Math.max(concatenated, product);
+        System.out.println(answer);
 
     }
-
-//    }
 }
 
 
