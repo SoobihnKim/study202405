@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 두 수의 연산값 비교하기" />
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 3번 / 수 나누기">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +169,9 @@
       <workItem from="1727081452535" duration="865000" />
       <workItem from="1727158825289" duration="651000" />
       <workItem from="1727244278821" duration="1331000" />
-      <workItem from="1727315952738" duration="291000" />
+      <workItem from="1727315952738" duration="644000" />
+      <workItem from="1727328090733" duration="2000" />
+      <workItem from="1727413764714" duration="333000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -504,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727316218188</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="# 3번 / 수 나누기">
+      <option name="closed" value="true" />
+      <created>1727316480564</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1727316480564</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +535,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 백준 1330" />
     <MESSAGE value="# 백준 14681" />
     <MESSAGE value="# 백준 2884" />
     <MESSAGE value="# 백준 2525" />
@@ -547,7 +559,8 @@
     <MESSAGE value="# 4번 / 병과분류" />
     <MESSAGE value="# 5번 / 심폐소생술" />
     <MESSAGE value="# 두 수의 연산값 비교하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 두 수의 연산값 비교하기" />
+    <MESSAGE value="# 3번 / 수 나누기" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 3번 / 수 나누기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

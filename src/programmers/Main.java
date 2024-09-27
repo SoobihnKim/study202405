@@ -5,16 +5,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        int answer = 0;
-
-        while (number > 0) {
-            answer += number % 100;
-            number /= 100;
+        int n = sc.nextInt();
+        if(n % 2 == 0) {
+            System.out.println(n + " is even");
+        } else {
+            System.out.println(n + " is odd");
         }
-
-        System.out.println(answer);
-
     }
 }
 
