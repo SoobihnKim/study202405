@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 꼬리 문자열">
-      <change beforePath="$PROJECT_DIR$/src/programmers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 더 크게 합치기" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,15 +170,7 @@
       <workItem from="1727328090733" duration="2000" />
       <workItem from="1727413764714" duration="894000" />
       <workItem from="1727658037273" duration="521000" />
-      <workItem from="1727836551097" duration="688000" />
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1715494720752</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1715494720752</updated>
+      <workItem from="1727836551097" duration="1286000" />
     </task>
     <task id="LOCAL-00002" summary="# 0519 study">
       <option name="closed" value="true" />
@@ -558,7 +548,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727837078866</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="# 부분 문자열인지 확인하기">
+      <option name="closed" value="true" />
+      <created>1727837399946</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1727837399946</updated>
+    </task>
+    <task id="LOCAL-00050" summary="# 더 크게 합치기">
+      <option name="closed" value="true" />
+      <created>1727837833256</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1727837833257</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,8 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 백준 10950" />
-    <MESSAGE value="# 백준 8393" />
     <MESSAGE value="# 백준 25304" />
     <MESSAGE value="# [PCCE 기출문제] 5번 / 산책" />
     <MESSAGE value="# 조건에 맞게 수열 변환하기 3" />
@@ -601,7 +605,9 @@
     <MESSAGE value="# 부분 문자열" />
     <MESSAGE value="# 문자 리스트를 문자열로 변환하기" />
     <MESSAGE value="# 꼬리 문자열" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 꼬리 문자열" />
+    <MESSAGE value="# 부분 문자열인지 확인하기" />
+    <MESSAGE value="# 더 크게 합치기" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 더 크게 합치기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
