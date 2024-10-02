@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 홀수 vs 짝수">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 부분 문자열" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +169,7 @@
       <workItem from="1727315952738" duration="644000" />
       <workItem from="1727328090733" duration="2000" />
       <workItem from="1727413764714" duration="894000" />
-      <workItem from="1727658037273" duration="390000" />
+      <workItem from="1727658037273" duration="521000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -534,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727414647900</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="# 부분 문자열">
+      <option name="closed" value="true" />
+      <created>1727658529252</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1727658529252</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 백준 2525" />
     <MESSAGE value="# 백준 2480" />
     <MESSAGE value="# 백준 2739" />
     <MESSAGE value="# 백준 10950" />
@@ -577,7 +581,8 @@
     <MESSAGE value="# 3번 / 수 나누기" />
     <MESSAGE value="# 홀짝 구분하기" />
     <MESSAGE value="# 홀수 vs 짝수" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 홀수 vs 짝수" />
+    <MESSAGE value="# 부분 문자열" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 부분 문자열" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

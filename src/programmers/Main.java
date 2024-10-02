@@ -3,11 +3,12 @@ package programmers;
 import java.util.Scanner;
 
 public class Main {
-    public int solution(String str1, String str2) {
-        if(str2.contains(str1)) {
-            return 1;
+    public String solution(String[] arr) {
+        String answer = "";
+        for (String str : arr) {
+            answer += str;
         }
-        return 0;
+        return answer;
     }
 }
 
