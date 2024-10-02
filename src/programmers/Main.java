@@ -4,17 +4,13 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    public String solution(String[] str_list, String ex) {
-        String answer = "";
-        for(String str : str_list) {
-            if(!str.contains(ex)) {
-                answer += str;
-            }
+    public int solution(String my_string, String target) {
+        int answer = 0;
+        if (my_string.contains(target)) {
+            return 1;
         }
-
         return answer;
     }
-
 }
 
 

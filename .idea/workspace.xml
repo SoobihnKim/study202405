@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 문자 리스트를 문자열로 변환하기">
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 꼬리 문자열">
       <change beforePath="$PROJECT_DIR$/src/programmers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +172,7 @@
       <workItem from="1727328090733" duration="2000" />
       <workItem from="1727413764714" duration="894000" />
       <workItem from="1727658037273" duration="521000" />
-      <workItem from="1727836551097" duration="343000" />
+      <workItem from="1727836551097" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -550,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727836727040</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="# 꼬리 문자열">
+      <option name="closed" value="true" />
+      <created>1727837078866</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1727837078866</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +576,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 백준 2739" />
     <MESSAGE value="# 백준 10950" />
     <MESSAGE value="# 백준 8393" />
     <MESSAGE value="# 백준 25304" />
@@ -593,7 +600,8 @@
     <MESSAGE value="# 홀수 vs 짝수" />
     <MESSAGE value="# 부분 문자열" />
     <MESSAGE value="# 문자 리스트를 문자열로 변환하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 문자 리스트를 문자열로 변환하기" />
+    <MESSAGE value="# 꼬리 문자열" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 꼬리 문자열" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
