@@ -4,12 +4,11 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    public int solution(String my_string, String target) {
-        int answer = 0;
-        if (my_string.contains(target)) {
-            return 1;
-        }
-        return answer;
+    public int solution(int a, int b) {
+        int ab = Integer.parseInt(String.valueOf(a) + String.valueOf(b));
+        int ba = Integer.parseInt(String.valueOf(b) + String.valueOf(a));
+
+        return Math.max(ab, ba);
     }
 }
 
