@@ -4,12 +4,16 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    public int solution(String num_str) {
-        int sum = 0;
-        for (int i = 0; i < num_str.length(); i++) {
-            sum += Character.getNumericValue(num_str.charAt(i));
+    public int solution(int a, int b) {
+        int answer = 0;
+        if(a % 2 == 1 && b % 2 == 1) {
+            answer = a*a + b*b;
+        } else if((a % 2 == 1 && b % 2 == 0) || (a % 2 == 0 && b % 2 == 1)) {
+            answer = 2 * (a + b);
+        } else{
+            answer = Math.abs(a - b);
         }
-        return sum;
+        return answer;
     }
 }
 

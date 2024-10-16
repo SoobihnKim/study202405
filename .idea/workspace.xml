@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 문자열을 정수로 변환하기">
+    <list default="true" id="99e37e6c-e656-4f7e-a1cc-4a698b7f6986" name="변경" comment="# 문자열 정수의 합">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programmers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,14 +178,9 @@
       <workItem from="1728022731940" duration="217000" />
       <workItem from="1728204019362" duration="194000" />
       <workItem from="1728367535425" duration="505000" />
-    </task>
-    <task id="LOCAL-00006" summary="# 백준 1008">
-      <option name="closed" value="true" />
-      <created>1719034451631</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1719034451631</updated>
+      <workItem from="1728898108370" duration="1223000" />
+      <workItem from="1728904962189" duration="7000" />
+      <workItem from="1729072465934" duration="329000" />
     </task>
     <task id="LOCAL-00007" summary="# 백준 10869">
       <option name="closed" value="true" />
@@ -570,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728204158346</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="# 문자열 정수의 합">
+      <option name="closed" value="true" />
+      <created>1728904912351</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1728904912352</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 4번 / 저축" />
     <MESSAGE value="# 7번 / 가습기" />
     <MESSAGE value="# 8번 / 창고정리" />
     <MESSAGE value="# 2번 / 각도 합치기" />
@@ -613,7 +616,8 @@
     <MESSAGE value="# 배열의 길이에 따라 다른 연산하기" />
     <MESSAGE value="# 0 떼기" />
     <MESSAGE value="# 문자열을 정수로 변환하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 문자열을 정수로 변환하기" />
+    <MESSAGE value="# 문자열 정수의 합" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 문자열 정수의 합" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
